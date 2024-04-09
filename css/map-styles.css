@@ -1,10 +1,29 @@
-footer {
-  margin-top: 2%;
-  padding: 10%;
-  background-color: #000000;
-  color: white;
-  text-align: center;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* Global styles */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #2788bc;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px 0;
+}
+
 nav {
   text-align: center;
 }
@@ -22,13 +41,54 @@ nav ul li a {
   text-decoration: none;
   color: #000000;
 }
-header {
-  background-color: #3f51b5;
-  color: #fff;
-  padding: 10px 0;
+
+h1,
+h2 {
+  margin-top: 20px;
+  color: #000000;
 }
-body {
-  font-family: "Roboto", Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #2788bc;
+
+section {
+  margin-top: 20px;
+  border: 6px solid #000;
+  border-radius: 5px;
+  color: #ff0000;
+}
+
+img {
+  max-width: 100%;
+}
+
+#interests,
+#resume,
+#cases,
+.contact-info,
+.education,
+.employment,
+.project-experience,
+.leadership-activities,
+.skills-interests,
+.supreme-cases {
+  background-color: #3aa9ff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p,
+.education p,
+.employment p {
+  margin-bottom: 10px;
+}
+
+.skills-interests ul li {
+  margin-bottom: 5px;
+}
+footer {
+  margin-top: 2%;
+  padding: 10%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
 }
