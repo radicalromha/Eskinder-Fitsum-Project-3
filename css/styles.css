@@ -85,3 +85,10 @@ img {
 .skills-interests ul li {
   margin-bottom: 5px;
 }
+footer {
+  margin-top: 2%;
+  padding: 10%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
