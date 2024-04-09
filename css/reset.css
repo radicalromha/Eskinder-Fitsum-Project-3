@@ -1,0 +1,10 @@
+body,
+h1,
+h2,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
