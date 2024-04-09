@@ -85,3 +85,8 @@ img {
 .skills-interests ul li {
   margin-bottom: 5px;
 }
+
+.toggle-button {
+  cursor: pointer;
+  color: blue;
+}
