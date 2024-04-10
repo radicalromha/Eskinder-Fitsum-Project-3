@@ -9,7 +9,11 @@
 body {
   font-family: "Roboto", Arial, sans-serif;
   line-height: 1.6;
-  background-color: #2788bc;
+  background-color: #bc3df3;
+}
+
+a {
+  color: #ffff;
 }
 
 .container {
@@ -19,9 +23,10 @@ body {
 }
 
 header {
-  background-color: #3f51b5;
-  color: #fff;
+  background-color: #0e67ff;
+  color: #ffffff;
   padding: 10px 0;
+  font-weight: 700;
 }
 
 nav {
@@ -45,14 +50,15 @@ nav ul li a {
 h1,
 h2 {
   margin-top: 20px;
-  color: #000000;
+  color: #ffffff;
 }
 
 section {
   margin-top: 20px;
   border: 6px solid #000;
   border-radius: 5px;
-  color: #ff0000;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 img {
