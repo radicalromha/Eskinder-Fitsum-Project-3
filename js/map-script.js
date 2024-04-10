@@ -7,7 +7,7 @@ function init() {
     zoom: 18,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
-      postion: google.maps.ControlPostion.BOTTOM_CENTER,
+      postion: google.maps.ControlPosition.BOTTOM_CENTER,
     },
   };
 
@@ -17,11 +17,10 @@ function init() {
     position: myLocation,
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
-    icon: "iit-icon.png",
   });
 
   var contentString =
-    "<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet,";
+    "<h1>Addis Ababa, Ethiopia</h1><p>Ethiopia is the oldest independent country in Africa. It is also the second most populated country in Africa with a population of over 106 million people, making it second to Nigeria. Ethiopia also stands as the only African country that has never been colonized.</p>";
 
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
