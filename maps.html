@@ -3,12 +3,13 @@
   <head>
     <title>Google Maps API</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <link rel="stylesheet" type="text/css" href="./map-styles.css" />
+    <link rel="stylesheet" href="css/map-styles.css" />
     <script
-      type="text/javascript"
-      src="https://maps.googlesapis.com/maps/api/js?key=AIzaSyD0z-9Uf-k6g-W5j6dWPnNei5S17kNsyyM"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0z-9Uf-k6g-W5j6dWPnNei5S17kNsyyM&callback=init"
+      async
+      defer
     ></script>
-    <script async type="text/javascript" src="js/map-script.js"></script>
+    <script async src="js/map-script.js"></script>
   </head>
   <body>
     <header>
