@@ -5,7 +5,7 @@
   margin: 0 auto;
   overflow: hidden;
 }
-#wrapper {
+#canvas {
   width: 700px;
   height: 500px;
   background-color: rgb(0, 85, 255);
