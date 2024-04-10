@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", Arial, sans-serif;
   line-height: 1.6;
-  background-color: #bc3df3;
+  background-color: #7611a1;
 }
 
 a {
@@ -44,20 +44,21 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 h1,
 h2 {
   margin-top: 20px;
-  color: #b04747;
+  color: #ffffff;
 }
 
 section {
   margin-top: 20px;
   border: 6px solid #000;
   border-radius: 5px;
-  color: #ffffff;
+  color: #66ff00;
   font-weight: 700;
 }
 
