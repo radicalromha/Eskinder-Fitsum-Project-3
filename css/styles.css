@@ -99,3 +99,61 @@ footer {
   color: white;
   text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  header {
+    padding: 5px 0;
+    font-size: 1.2em;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  section {
+    border-width: 4px;
+    margin-top: 10px;
+  }
+
+  #resume {
+    padding: 10px 5px;
+    margin-top: 10px;
+  }
+
+  .contact-info p,
+  .education p,
+  .employment p {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 5px 0;
+    font-size: 1em;
+  }
+
+  nav ul li {
+    margin-right: 5px;
+  }
+
+  section {
+    border-width: 2px;
+    margin-top: 5px;
+  }
+
+  #resume {
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .contact-info p,
+  .education p,
+  .employment p {
+    margin-bottom: 3px;
+  }
+}
